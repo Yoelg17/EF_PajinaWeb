@@ -1,0 +1,466 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: rgb(255, 255, 255);
+
+}
+
+/*ENCABEZADO DE LA PAJINA */
+.encabezado {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between; /* el logo y los botones se separan de derecha a izquierda*/
+  align-items: center;            /*para que los botones esten derecho en el centrp*/
+  padding: 15px 30px;             /* espacio de fondo degro del encabezado de arriba abajo*/
+  position: fixed;                /* el encabezado se queda quieto */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.logo {
+  height: auto;
+  width: 230px;                  
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+  background-color: black;
+  border-color: red;
+
+}
+
+.btnEncabezado {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;/* para controlar los espacios de cada boton*/
+}
+
+.btnEn {
+    width: max-content;/* para que el boton mida igual que el texto*/
+    padding: 8px 16px;
+    font-size: 17px;
+    color: red;
+    background-color: black;
+    border: 1px solid red;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.btnEn:hover {
+    background-color: rgb(255, 0, 0);
+    color: black;
+    transition: all 0.7s ease;
+    cursor: pointer;/* Hace que aparezca la manito al pasar el mouse */
+}
+
+
+
+
+
+/*PORTADA DE LA PAJINA */
+
+.portada{
+    position: relative;
+}
+.image{
+    width: 100%;
+    height: 596px;
+    filter: brightness(30%);
+    
+
+}
+.portada h1{
+    font-family: impact, sans-serif;
+    font-size: 200px;
+    position: absolute;
+    top:10%;
+    left: 26%;
+    transform: translate(-50% -50%);
+    color: rgb(255, 12, 12);
+    font-style: italic;
+    
+}
+.portada h1:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+
+.portada h2{
+    font-family: impact;
+    font-size: 125px;
+    position: absolute;
+    top:50%;
+    left: 18%;
+    transform: translate(-50% -50%);
+    color: rgb(255, 255, 255);
+}
+.portada h2:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+
+.portada span{
+    font-family: Impact;
+    
+}
+.portada span:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+
+.portada h4{
+    font-family: cursive;
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    position: absolute;
+    top:75%;
+    left: 24%;
+    transform: translate(-50% -50%);
+    color: rgb(255, 255, 255);
+}
+.portada h4:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+
+
+
+
+
+
+
+/*SOBRE NOSOTROS */
+
+.sobre-nosotros {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    background-color: white;
+    font-family: sans-serif;
+}
+.texto{
+    font-size: 10pxs;
+
+}
+
+.texto h1 {
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+
+.boton {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+   
+}
+.imgNstrs {
+    display: flex;
+    gap: 15px;
+}
+
+.imgNstrs img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+/*VISÒN Y MISIÒ DE NUESTRA PAJINA WEB*/
+.vi-mi{
+    font-size: 17px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    background-color: rgb(206, 229, 243);
+    width: 100%;
+    font-family: arvo;
+    
+    
+}
+.linea{
+    width: 1px;          /* Ancho de la línea */
+    height: 250px;       /* Altura de la línea*/
+    background-color: black;
+    margin: 0 60px;
+
+}
+.imgvm{
+    width: 20%;
+    height: 80px;
+    left: 20;
+    padding-right: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+/*LOS TRES PRODUCTOS MAS DESTACADOS*/
+.tituloPdcts{
+    background-color: #ffffff;
+    border-radius: 40px;
+    text-shadow: 0px 0px 8px black;
+    font-family: poppinss;
+    
+}
+.inventario {
+    display: flex;
+    gap: 25px; 
+    font-family: caudex;
+}
+
+
+.caja {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 8px solid rgb(206, 229, 243);
+    flex: 1; /* Hace que todos ocupen el mismo ancho */
+    border-radius: 30px;
+    box-shadow: 0 15px 1px rgba(0, 0, 0, 0.2)
+}
+.precioPdcts{
+    font-weight: 900;
+}
+
+.botonInv{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border: black;
+    border-radius: 5px;
+}
+.botonInv:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.card-img-top{
+    height: 250px;
+    width: 100%;
+   border-radius: 100px;
+    animation: reverse 3s;
+}
+
+.card-img-top:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+
+/*VIDEO REPRESENTATIVO*/
+.video{
+
+}
+
+
+
+
+
+
+/*PIE DE LA PAJINA */
+
+.piepajina {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 40px;
+    background-color: #000;
+    padding-top: 30px;
+}
+
+.fotsuptitulo {
+    color: yellow;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+}
+
+.conte {
+    color: #8d8888ca;
+    font-size: 18;
+    font-family: 'Times New Roman'
+}
+
+.upn {
+    border-radius: 20px;
+    height: 97px;
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+/* HOJA 2 PRODUCTOS*/
+/* POLOS*/
+
+
+main{
+    background-color: rgba(255, 210, 161, 0.543);
+}
+.catalogo1{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    font-family: Georgia, serif;
+}
+
+.texto1{
+    width: 40%;
+    font-family: Verdana, sans-serif;
+}
+
+.texto1 h1{
+    font-size: 65px;
+    margin-bottom: 20px;
+    font-family: Impact, sans-serif;
+}
+
+.texto1 p{
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    font-family: Monospace;
+}
+
+.texto1 button{
+    padding: 14px 35px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+.imagen1{
+    width: 100%;
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    font-family: Tahoma, sans-serif;
+}
+
+.imagen1 img{
+    width: 100%;
+    max-width: 700px;
+    border-radius: 14px;
+}
+
+.productos1{
+    width: 93%;
+    padding: 50px 9px;
+    font-family: Cambria, serif;
+    
+}
+
+
+.productos1 h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 45px;
+    font-family: "Arial Black", sans-serif;
+}
+
+.productos1 h2::after{
+    content: "";
+    display: block;
+    width: 110px;
+    height: 3px;
+    background: black;
+    margin: 12px auto;
+}
+
+.contenedor1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 22px;
+    font-family: Garamond, serif;
+    
+}
+
+.producto1{
+    width: 220px;
+    border: 1px solid #554545;
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 20px;
+    transition: .3s;
+    font-family: Georgia, serif;
+    background-color: rgba(255, 255, 255, 0.523);
+}
+
+.producto1:hover{
+    transform: translateY(-8px);
+}
+
+.producto1 img{
+    width: 90%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+   
+}
+
+.producto1 h3{
+    margin-top: 15px;
+    font-size: 23px;
+    font-family: "Palatino Linotype", serif;
+}
+
+.producto1 p{
+    margin: 7px 0;
+    font-size: 13px;
+    font-family: Verdana, sans-serif;
+}
+
+.producto1 span{
+    display: block;
+    margin: 15px 0;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+.producto1 button{
+    padding: 12px 28px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: Tahoma, sans-serif;
+    background-color: rgb(241, 211, 175);
+}
