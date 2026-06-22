@@ -461,3 +461,193 @@ main{
     font-family: Tahoma, sans-serif;
     background-color: rgb(241, 211, 175);
 }
+/*                                                      Sobre nosotros inicio*/
+/* NOSOTROS - TITULO */
+.nosotros-header {
+    margin-top: 120px;
+    text-align: center;
+    padding: 40px 20px 0;
+}
+
+.titulo-cvs {
+    font-size: 44px;
+    color: black;
+    font-family: sans-serif;
+    margin-bottom: 12px;
+}
+
+.linea-cvs {
+    width: 110px;
+    height: 3px;
+    background: black;
+    margin: 0 auto 20px;
+}
+
+/* CARRUSEL NOSOTROS */
+.nosotros-carousel {
+    margin-top: 0;
+    background-color: white;
+    font-family: sans-serif;
+}
+
+.nosotros-carousel .carousel-inner,
+.nosotros-carousel .carousel-item {
+    min-height: 520px;
+}
+
+.slide-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 520px;
+    padding: 60px 40px;
+    color: black;
+    text-align: center;
+}
+
+.slide-nombre {
+    font-family: sans-serif;
+    font-size: 44px;
+    color: black;
+    margin-bottom: 4px;
+}
+
+.slide-rol {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.slide-grid {
+    width: 100%;
+    max-width: 1100px;
+    gap: 20px;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.slide-card {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border: 1px solid #ddd;
+    padding: 28px 20px;
+    text-align: left;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.slide-card:hover {
+    transform: translateY(-4px);
+    border-color: red;
+}
+
+.slide-card h3 {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.slide-card ul {
+    flex: 1;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.slide-card ul li {
+    padding: 8px 0 8px 20px;
+    position: relative;
+    font-size: 15px;
+    color: #333;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+.slide-card ul li::before {
+    content: ">";
+    position: absolute;
+    left: 0;
+    color: red;
+    font-weight: bold;
+}
+
+/* CONTROLES LATERALES DEL CARRUSEL */
+.carousel-top-controls {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    z-index: 15;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    pointer-events: none;
+}
+
+.btn-top-nav {
+    pointer-events: auto;
+    display: inline-block;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 14px 32px;
+    font-size: 24px;
+    cursor: pointer;
+    font-family: sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-top-nav:hover {
+    background-color: black;
+    color: white;
+}
+
+/* RESPONSIVE NOSOTROS */
+@media (max-width: 768px) {
+    .nosotros-carousel {
+        margin-top: 70px;
+    }
+
+    .slide-content {
+        padding: 50px 20px;
+        min-height: 450px;
+    }
+
+    .slide-nombre {
+        font-size: 30px;
+    }
+
+    .slide-rol {
+        font-size: 14px;
+        margin-bottom: 24px;
+    }
+
+    .slide-grid {
+        gap: 14px;
+    }
+
+    .slide-card {
+        margin-bottom: 0;
+    }
+
+    .slide-card h3 {
+        font-size: 18px;
+    }
+
+    .slide-card ul li {
+        font-size: 13px;
+    }
+
+    .carousel-top-controls {
+        padding: 0 6px;
+    }
+
+    .btn-top-nav {
+        padding: 10px 18px;
+        font-size: 18px;
+    }
+}
+/*                                                      Sobre nosotros final*/
