@@ -4,15 +4,17 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
   font-family: sans-serif;
   background-color: rgb(255, 255, 255);
 
 }
 
+/* ===================================================*/
+/*PORTADA*/
+/* ===================================================*/
 /*ENCABEZADO DE LA PAJINA */
-.encabezado {
+.encabezado1 {
   background-color: rgb(0, 0, 0);
   display: flex;
   justify-content: space-between; /* el logo y los botones se separan de derecha a izquierda*/
@@ -24,8 +26,7 @@ body {
   width: 100%;
   z-index: 1000;
 }
-
-.logo {
+.logo1 {
   height: auto;
   width: 230px;                  
 }
@@ -36,33 +37,27 @@ body {
   border-color: red;
 
 }
-
-.btnEncabezado {
+.btnEncabezado1 {
   display: flex;
   flex-direction: row;
   gap: 8px;/* para controlar los espacios de cada boton*/
 }
-
-.btnEn {
+.btnEn1 {
     width: max-content;/* para que el boton mida igual que el texto*/
-    padding: 8px 16px;
-    font-size: 17px;
+    padding: 8px 18px;
+    font-size: 18px;
     color: red;
     background-color: black;
-    border: 1px solid red;
+    border: 3px solid red;
     border-radius: 15px;
     text-align: center;
 }
-
-.btnEn:hover {
+.btnEn1:hover {
     background-color: rgb(255, 0, 0);
     color: black;
     transition: all 0.7s ease;
     cursor: pointer;/* Hace que aparezca la manito al pasar el mouse */
 }
-
-
-
 
 
 /*PORTADA DE LA PAJINA */
@@ -92,8 +87,6 @@ body {
     transform: scale(1.1);
     transition: 1s;
 }
-
-
 .portada h2{
     font-family: impact;
     font-size: 125px;
@@ -107,8 +100,6 @@ body {
     transform: scale(1.1);
     transition: 1s;
 }
-
-
 .portada span{
     font-family: Impact;
     
@@ -117,8 +108,6 @@ body {
     transform: scale(1.1);
     transition: 1s;
 }
-
-
 .portada h4{
     font-family: cursive;
     color: rgb(255, 255, 255);
@@ -136,11 +125,6 @@ body {
 
 
 
-
-
-
-
-
 /*SOBRE NOSOTROS */
 
 .sobre-nosotros {
@@ -155,12 +139,10 @@ body {
     font-size: 10pxs;
 
 }
-
 .texto h1 {
     font-size: 44px;
     margin-bottom: 20px;
 }
-
 .boton {
     display: inline-block;
     background-color: black;
@@ -173,14 +155,11 @@ body {
     display: flex;
     gap: 15px;
 }
-
 .imgNstrs img {
     width: 250px;
     height: 250px;
     object-fit: cover;
 }
-
-
 
 
 
@@ -214,12 +193,6 @@ body {
 
 
 
-
-
-
-
-
-
 /*LOS TRES PRODUCTOS MAS DESTACADOS*/
 .tituloPdcts{
     background-color: #ffffff;
@@ -229,24 +202,25 @@ body {
     
 }
 .inventario {
+    padding: 45px;
     display: flex;
-    gap: 25px; 
+    gap: 30px; 
     font-family: caudex;
+
+    
+    
 }
-
-
 .caja {
     background-color: #ffffff;
     padding: 20px;
     border: 8px solid rgb(206, 229, 243);
     flex: 1; /* Hace que todos ocupen el mismo ancho */
     border-radius: 30px;
-    box-shadow: 0 15px 1px rgba(0, 0, 0, 0.2)
+    box-shadow: 0 15px 1px rgba(0, 0, 0, 0.2);
 }
 .precioPdcts{
     font-weight: 900;
 }
-
 .botonInv{
     background-color: black;
     color: rgb(255, 255, 255);
@@ -258,24 +232,16 @@ body {
     transform: scale(1.1);
     transition: 1s;
 }
-
 .card-img-top{
     height: 250px;
     width: 100%;
    border-radius: 100px;
     animation: reverse 3s;
 }
-
 .card-img-top:hover{
     transform: scale(1.1);
     transition: 1s;
 }
-
-
-
-
-
-
 
 
 
@@ -288,24 +254,20 @@ body {
     background-color: #000;
     padding-top: 30px;
 }
-
 .fotsuptitulo {
     color: yellow;
     font-family: 'Times New Roman';
     font-size: 20px;
 }
-
 .conte {
     color: #8d8888ca;
     font-size: 18;
     font-family: 'Times New Roman'
 }
-
 .upn {
     border-radius: 20px;
     height: 97px;
 }
-    
 
 
 
@@ -317,9 +279,63 @@ body {
 
 
 
-/* HOJA 2 PRODUCTOS*/
+
+
+
+
+/* ===================================================*/
+/* HOJA 2 PRODUCTOS POLOS*/
+/* ===================================================*/
+
+/*ENCABEZADO DE LA PAJINA */
+.encabezado2 {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between; /* el logo y los botones se separan de derecha a izquierda*/
+  align-items: center;            /*para que los botones esten derecho en el centrp*/
+  padding: 15px 30px;             /* espacio de fondo degro del encabezado de arriba abajo*/
+  position: fixed;                /* el encabezado se queda quieto */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.logo2 {
+  height: auto;
+  width: 230px;                  
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+  background-color: black;
+  border-color: red;
+
+}
+.btnEncabezado2 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;/* para controlar los espacios de cada boton*/
+}
+.btnEn2 {
+    width: max-content;/* para que el boton mida igual que el texto*/
+    padding: 8px 18px;
+    font-size: 18px;
+    color: red;
+    background-color: black;
+    border: 3px solid red;
+    border-radius: 15px;
+    text-align: center;
+}
+.btnEn2:hover {
+    background-color: rgb(255, 0, 0);
+    color: black;
+    transition: all 0.7s ease;
+    cursor: pointer;/* Hace que aparezca la manito al pasar el mouse */
+}
+
+
+
 /* POLOS*/
-
 
 main{
     background-color: rgba(255, 210, 161, 0.543);
@@ -333,25 +349,21 @@ main{
     padding: 50px;
     font-family: Georgia, serif;
 }
-
 .texto1{
     width: 40%;
     font-family: Verdana, sans-serif;
 }
-
 .texto1 h1{
     font-size: 65px;
     margin-bottom: 20px;
     font-family: Impact, sans-serif;
 }
-
 .texto1 p{
     font-size: 18px;
     line-height: 30px;
     margin-bottom: 30px;
     font-family: Monospace;
 }
-
 .texto1 button{
     padding: 14px 35px;
     border: none;
@@ -360,7 +372,6 @@ main{
     font-size: 16px;
     font-family: Arial, sans-serif;
 }
-
 .imagen1{
     width: 100%;
     height: 340px;
@@ -368,28 +379,23 @@ main{
     justify-content: center;
     font-family: Tahoma, sans-serif;
 }
-
 .imagen1 img{
     width: 100%;
     max-width: 700px;
     border-radius: 14px;
 }
-
 .productos1{
     width: 93%;
     padding: 50px 9px;
     font-family: Cambria, serif;
     
 }
-
-
 .productos1 h2{
     text-align: center;
     font-size: 40px;
     margin-bottom: 45px;
     font-family: "Arial Black", sans-serif;
 }
-
 .productos1 h2::after{
     content: "";
     display: block;
@@ -398,7 +404,6 @@ main{
     background: black;
     margin: 12px auto;
 }
-
 .contenedor1{
     display: flex;
     justify-content: space-between;
@@ -407,7 +412,6 @@ main{
     font-family: Garamond, serif;
     
 }
-
 .producto1{
     width: 220px;
     border: 1px solid #554545;
@@ -419,11 +423,9 @@ main{
     font-family: Georgia, serif;
     background-color: rgba(255, 255, 255, 0.523);
 }
-
 .producto1:hover{
     transform: translateY(-8px);
 }
-
 .producto1 img{
     width: 90%;
     height: 250px;
@@ -431,19 +433,16 @@ main{
     border-radius: 5px;
    
 }
-
 .producto1 h3{
     margin-top: 15px;
     font-size: 23px;
     font-family: "Palatino Linotype", serif;
 }
-
 .producto1 p{
     margin: 7px 0;
     font-size: 13px;
     font-family: Verdana, sans-serif;
 }
-
 .producto1 span{
     display: block;
     margin: 15px 0;
@@ -451,7 +450,6 @@ main{
     font-weight: bold;
     font-family: Arial, sans-serif;
 }
-
 .producto1 button{
     padding: 12px 28px;
     border: none;
@@ -468,14 +466,12 @@ main{
     text-align: center;
     padding: 40px 20px 0;
 }
-
 .titulo-cvs {
     font-size: 44px;
     color: black;
     font-family: sans-serif;
     margin-bottom: 12px;
 }
-
 .linea-cvs {
     width: 110px;
     height: 3px;
@@ -489,12 +485,10 @@ main{
     background-color: white;
     font-family: sans-serif;
 }
-
 .nosotros-carousel .carousel-inner,
 .nosotros-carousel .carousel-item {
     min-height: 520px;
 }
-
 .slide-content {
     display: flex;
     flex-direction: column;
@@ -505,7 +499,6 @@ main{
     color: black;
     text-align: center;
 }
-
 .slide-nombre {
     font-family: sans-serif;
     font-size: 44px;
@@ -572,6 +565,7 @@ main{
     color: red;
     font-weight: bold;
 }
+
 
 /* CONTROLES LATERALES DEL CARRUSEL */
 .carousel-top-controls {
@@ -650,4 +644,151 @@ main{
         font-size: 18px;
     }
 }
-/*                                                      Sobre nosotros final*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===================================================*/
+/*Pajina 3 accesorios */
+/* ===================================================*/
+/*ENCABEZADO DE LA PAJINA */
+.encabezado3 {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between; /* el logo y los botones se separan de derecha a izquierda*/
+  align-items: center;            /*para que los botones esten derecho en el centrp*/
+  padding: 15px 30px;             /* espacio de fondo degro del encabezado de arriba abajo*/
+  position: fixed;                /* el encabezado se queda quieto */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.logo3 {
+  height: auto;
+  width: 230px;                  
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+  background-color: black;
+  border-color: red;
+
+}
+
+.btnEncabezado3 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;/* para controlar los espacios de cada boton*/
+}
+
+.btnEn3 {
+    width: max-content;/* para que el boton mida igual que el texto*/
+    padding: 8px 18px;
+    font-size: 18px;
+    color: red;
+    background-color: black;
+    border: 3px solid red;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.btnEn3:hover {
+    background-color: rgb(255, 0, 0);
+    color: black;
+    transition: all 0.7s ease;
+    cursor: pointer;/* Hace que aparezca la manito al pasar el mouse */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===================================================*/
+/*Pajina 4 productos accesorios */
+/* ===================================================*/
+/*ENCABEZADO DE LA PAJINA */
+.encabezado4 {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between; /* el logo y los botones se separan de derecha a izquierda*/
+  align-items: center;            /*para que los botones esten derecho en el centrp*/
+  padding: 15px 30px;             /* espacio de fondo degro del encabezado de arriba abajo*/
+  position: fixed;                /* el encabezado se queda quieto */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.logo4 {
+  height: auto;
+  width: 230px;                  
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+  background-color: black;
+  border-color: red;
+
+}
+
+.btnEncabezado4 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;/* para controlar los espacios de cada boton*/
+}
+
+.btnEn4 {
+    width: max-content;/* para que el boton mida igual que el texto*/
+    padding: 8px 18px;
+    font-size: 18px;
+    color: red;
+    background-color: black;
+    border: 3px solid red;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.btnEn4:hover {
+    background-color: rgb(255, 0, 0);
+    color: black;
+    transition: all 0.7s ease;
+    cursor: pointer;/* Hace que aparezca la manito al pasar el mouse */
+}
+
+                                                   Sobre nosotros final*/
