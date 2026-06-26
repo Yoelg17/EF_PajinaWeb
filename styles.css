@@ -12,7 +12,7 @@ body {
 
 
 /* ===================================================*/
-/*PORTADA*/
+/*PORTADA PAJINA 1*/
 /* ===================================================*/
 /*ENCABEZADO DE LA PAJINA */
 .encabezado1 {
@@ -138,6 +138,7 @@ body {
 }
 .texto{
     font-size: 10pxs;
+   padding: 30px;
 
 }
 .texto h1 {
@@ -167,16 +168,25 @@ body {
 
 /*VISÒN Y MISIÒ DE NUESTRA PAJINA WEB*/
 .vi-mi{
-    font-size: 17px;
+    font-size: 19px;
     display: flex;
-    margin: 0 auto;
     align-items: center;
     background-color: rgb(206, 229, 243);
     width: 100%;
     font-family: arvo;
     
     
+    
 }
+.vi{
+   padding: 30px;
+    
+}
+.mi{
+   padding: 30px;
+    
+}
+
 .linea{
     width: 1px;          /* Ancho de la línea */
     height: 250px;       /* Altura de la línea*/
@@ -254,6 +264,7 @@ body {
     gap: 40px;
     background-color: #000;
     padding-top: 30px;
+    padding: 30px;
 }
 .fotsuptitulo {
     color: yellow;
@@ -261,7 +272,7 @@ body {
     font-size: 20px;
 }
 .conte {
-    color: #8d8888ca;
+    color: #bab7b7;
     font-size: 18;
     font-family: 'Times New Roman'
 }
@@ -286,7 +297,7 @@ body {
 
 
 /* ===================================================*/
-/* HOJA 2 PRODUCTOS POLOS*/
+/* PAJINA 2 PRODUCTOS POLOS*/
 /* ===================================================*/
 
 /*ENCABEZADO DE LA PAJINA */
@@ -340,7 +351,7 @@ body {
 /* POLOS*/
 
 main{
-    background-color: rgba(255, 210, 161, 0.543);
+    background-color: rgba(120, 120, 119, 0.447);
 }
 .catalogo1{
     width: 100%;
@@ -418,13 +429,15 @@ main{
     width: 225px;
     border: 1px solid #554545;
     border-radius: 12px;
-    overflow: hidden;
-    text-align: center;
     padding-bottom: 20px;
+    padding: 18px;
     transition: .3s;
     font-family: Georgia, serif;
     background-color: rgba(255, 255, 255, 0.523);
     
+}
+.ejem{
+    text-align: justify;
 }
 .producto1:hover{
     transform: translateY(-8px);
@@ -747,6 +760,9 @@ span:hover{
 
 
 
+
+
+
 /* ===================================================*/
 /*Pajina 4 productos accesorios */
 /* ===================================================*/
@@ -862,3 +878,137 @@ span:hover{
     transition: all 0.7s ease;
     cursor: pointer;/* Hace que aparezca la manito al pasar el mouse */
 }
+
+
+
+
+
+
+
+
+
+
+
+/* ===================================================*/
+/*Pajina 5 nosotros */
+/* ===================================================*/
+/*ENCABEZADO DE LA PAJINA */
+.encabezado6 {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between; /* el logo y los botones se separan de derecha a izquierda*/
+  align-items: center;            /*para que los botones esten derecho en el centrp*/
+  padding: 15px 30px;             /* espacio de fondo degro del encabezado de arriba abajo*/
+  position: fixed;                /* el encabezado se queda quieto */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.logo6 {
+  height: auto;
+  width: 230px;                  
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+  background-color: black;
+  border-color: red;
+
+}
+
+.btnEncabezado6 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;/* para controlar los espacios de cada boton*/
+}
+
+.btnEn6 {
+    width: max-content;/* para que el boton mida igual que el texto*/
+    padding: 8px 18px;
+    font-size: 18px;
+    color: red;
+    background-color: black;
+    border: 3px solid red;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.btnEn6:hover {
+    background-color: rgb(255, 0, 0);
+    color: black;
+    transition: all 0.7s ease;
+    cursor: pointer;/* Hace que aparezca la manito al pasar el mouse */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===================================================*/
+/*Pajina 6 contacto*/
+/* ===================================================*/
+/*ENCABEZADO DE LA PAJINA */
+.encabezado7 {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between; /* el logo y los botones se separan de derecha a izquierda*/
+  align-items: center;            /*para que los botones esten derecho en el centrp*/
+  padding: 15px 30px;             /* espacio de fondo degro del encabezado de arriba abajo*/
+  position: fixed;                /* el encabezado se queda quieto */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.logo7 {
+  height: auto;
+  width: 230px;                  
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+  background-color: black;
+  border-color: red;
+
+}
+
+.btnEncabezado7 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;/* para controlar los espacios de cada boton*/
+}
+
+.btnEn7 {
+    width: max-content;/* para que el boton mida igual que el texto*/
+    padding: 8px 18px;
+    font-size: 18px;
+    color: red;
+    background-color: black;
+    border: 3px solid red;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.btnEn7:hover {
+    background-color: rgb(255, 0, 0);
+    color: black;
+    transition: all 0.7s ease;
+    cursor: pointer;/* Hace que aparezca la manito al pasar el mouse */
+}
+
+
+
+
+
