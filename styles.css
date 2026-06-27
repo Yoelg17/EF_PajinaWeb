@@ -301,6 +301,8 @@ body {
 /* ===================================================*/
 
 /*ENCABEZADO DE LA PAJINA */
+
+
 .encabezado2 {
   background-color: rgb(0, 0, 0);
   display: flex;
@@ -681,7 +683,7 @@ span:hover{
 
 
 /* ===================================================*/
-/*Pajina 3 accesorios goraas */
+/*Pajina 3 productos goraas */
 /* ===================================================*/
 /*ENCABEZADO DE LA PAJINA */
 .encabezado3 {
@@ -732,6 +734,12 @@ span:hover{
     transition: all 0.7s ease;
     cursor: pointer;/* Hace que aparezca la manito al pasar el mouse */
 }
+.colors{
+    background-color: #b4000031;
+}
+
+
+
 
 
 
@@ -890,7 +898,7 @@ span:hover{
 
 
 /* ===================================================*/
-/*Pajina 5 nosotros */
+/*Pajina 6 nosotros */
 /* ===================================================*/
 /*ENCABEZADO DE LA PAJINA */
 .encabezado6 {
@@ -956,7 +964,7 @@ span:hover{
 
 
 /* ===================================================*/
-/*Pajina 6 contacto*/
+/*Pajina 7 contacto*/
 /* ===================================================*/
 /*ENCABEZADO DE LA PAJINA */
 .encabezado7 {
@@ -1006,6 +1014,75 @@ span:hover{
     color: black;
     transition: all 0.7s ease;
     cursor: pointer;/* Hace que aparezca la manito al pasar el mouse */
+}
+
+.contacto{
+    width: 90%;
+    max-width: 1100px;
+    margin: 60px auto;
+    display: flex;
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,.15);
+}
+
+/* Formulario */
+
+.formulario{
+    width: 45%;
+    padding: 40px;
+}
+
+.formulario h2{
+    text-align: center;
+    margin-bottom: 25px;
+    color: #222;
+}
+
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.formulario input,
+.formulario textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+}
+
+.formulario textarea{
+    height: 150px;
+    resize: none;
+}
+
+.formulario button{
+    padding: 12px;
+    border: none;
+    background: #e10600;
+    color: white;
+    font-size: 17px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.formulario button:hover{
+    background: #b40000;
+}
+
+.maps{
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.mapss{
+    border-radius: 10px;
 }
 
 
