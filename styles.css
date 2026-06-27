@@ -26,6 +26,7 @@ body {
   left: 0;
   width: 100%;
   z-index: 1000;
+  font-family: fantasy;
 }
 .logo1 {
   height: auto;
@@ -49,7 +50,7 @@ body {
     font-size: 18px;
     color: red;
     background-color: black;
-    border: 3px solid red;
+    border: 3.5px solid red;
     border-radius: 15px;
     text-align: center;
 }
@@ -224,10 +225,10 @@ body {
 .caja {
     background-color: #ffffff;
     padding: 20px;
-    border: 8px solid rgb(206, 229, 243);
+    border: 8px solid rgba(206, 229, 243, 0.712);
     flex: 1; /* Hace que todos ocupen el mismo ancho */
     border-radius: 30px;
-    box-shadow: 0 15px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 20px 10px rgba(0, 0, 0, 0.7);
 }
 .precioPdcts{
     font-weight: 900;
@@ -253,6 +254,60 @@ body {
     transform: scale(1.1);
     transition: 1s;
 }
+
+/*videoo*/
+.contenedor-video{
+    font-family: fantasy;
+    width: 97%;
+    max-width: 1200px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    background: #83abb173;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 20px 10px rgba(0,0,0,0.20);
+}
+
+/* Video*/
+.video{
+    flex: 0 0 65%;
+}
+
+.video video{
+    width: 100%;
+    height: 390px;
+    object-fit: cover;
+    border-radius: 13px;
+}
+
+.clientes{
+    flex: 0 0 35%;
+}
+
+.clientes h2{
+    font-size: 34px;
+    color: #e10600;
+    margin-bottom: 20px;
+}
+
+.clientes p{
+    font-size: 18px;
+    line-height: 1.8;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.clientes ul{
+    padding-left: 20px;
+}
+
+.clientes li{
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
 
 
 
@@ -282,7 +337,20 @@ body {
 }
 
 
+.redes-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-top: 23px;
+}
 
+.redes-footer img{
+    width: 40px; 
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
 
 
 
@@ -314,6 +382,7 @@ body {
   left: 0;
   width: 100%;
   z-index: 1000;
+  font-family: fantasy;
 }
 .logo2 {
   height: auto;
@@ -337,7 +406,7 @@ body {
     font-size: 18px;
     color: red;
     background-color: black;
-    border: 3px solid red;
+    border: 3.5px solid red;
     border-radius: 15px;
     text-align: center;
 }
@@ -697,6 +766,7 @@ span:hover{
   left: 0;
   width: 100%;
   z-index: 1000;
+  font-family: fantasy;
 }
 
 .logo3 {
@@ -723,7 +793,7 @@ span:hover{
     font-size: 18px;
     color: red;
     background-color: black;
-    border: 3px solid red;
+    border: 3.5px solid red;
     border-radius: 15px;
     text-align: center;
 }
@@ -786,6 +856,7 @@ span:hover{
   left: 0;
   width: 100%;
   z-index: 1000;
+  font-family: fantasy;
 }
 
 .logo4 {
@@ -812,7 +883,7 @@ span:hover{
     font-size: 18px;
     color: red;
     background-color: black;
-    border: 3px solid red;
+    border: 3.5px solid red;
     border-radius: 15px;
     text-align: center;
 }
@@ -849,6 +920,7 @@ span:hover{
   left: 0;
   width: 100%;
   z-index: 1000;
+  font-family: fantasy;
 }
 
 .logo5 {
@@ -875,7 +947,7 @@ span:hover{
     font-size: 18px;
     color: red;
     background-color: black;
-    border: 3px solid red;
+    border: 3.5px solid red;
     border-radius: 15px;
     text-align: center;
 }
@@ -912,6 +984,7 @@ span:hover{
   left: 0;
   width: 100%;
   z-index: 1000;
+  font-family: fantasy;
 }
 
 .logo6 {
@@ -938,7 +1011,7 @@ span:hover{
     font-size: 18px;
     color: red;
     background-color: black;
-    border: 3px solid red;
+    border: 3.5px solid red;
     border-radius: 15px;
     text-align: center;
 }
@@ -978,6 +1051,7 @@ span:hover{
   left: 0;
   width: 100%;
   z-index: 1000;
+  font-family: fantasy;
 }
 
 .logo7 {
@@ -1004,7 +1078,7 @@ span:hover{
     font-size: 18px;
     color: red;
     background-color: black;
-    border: 3px solid red;
+    border: 3.5px solid red;
     border-radius: 15px;
     text-align: center;
 }
