@@ -1041,28 +1041,54 @@ span:hover{
     cursor: pointer;/* Hace que aparezca la manito al pasar el mouse */
 }
 
+
+
+/* Formulario */
+
+
+.pagina-contacto{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg,#0F172A,#1E293B,#111827);
+    min-height: 100vh;
+    font-family: Georgia, serif;
+
+}
 .contacto{
+    
     width: 90%;
     max-width: 1100px;
     margin: 60px auto;
     display: flex;
-    background: #fff;
+    background: #2b3847;
     border-radius: 15px;
     overflow: hidden;
-    box-shadow: 0 5px 15px rgba(0,0,0,.15);
+    box-shadow: 0 5px 15px rgba(0,0,0,.30);
 }
-
-/* Formulario */
-
+.mensajee{
+    background-color: #bfbfbf;
+}
 .formulario{
     width: 45%;
     padding: 40px;
+    
 }
 
 .formulario h2{
     text-align: center;
     margin-bottom: 25px;
-    color: #222;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    border-top: 4px solid #E10600;
+}
+.formulario h2::after{
+    content: "";
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: red;
+    margin: 15px auto;
+    border-radius: 10px;
 }
 
 .formulario form{
@@ -1075,7 +1101,7 @@ span:hover{
 .formulario textarea{
     width: 100%;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 1px solid #d0d0d0;
     border-radius: 8px;
     font-size: 16px;
     outline: none;
@@ -1087,18 +1113,21 @@ span:hover{
 }
 
 .formulario button{
-    padding: 12px;
+    width: 100%;
+    padding: 15px;
+    background: #E10600;
+    color: rgb(255, 255, 255);
     border: none;
-    background: #e10600;
-    color: white;
-    font-size: 17px;
-    border-radius: 8px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
     cursor: pointer;
     transition: .3s;
 }
 
 .formulario button:hover{
-    background: #b40000;
+    background: #C40400;
+    transform: translateY(-3px);
 }
 
 .maps{
@@ -1108,6 +1137,16 @@ span:hover{
 
 .mapss{
     border-radius: 10px;
+}
+.formulario input::placeholder,
+.formulario textarea::placeholder{
+    color: #666869;
+}
+.formulario input:focus,
+.formulario textarea:focus{
+    outline: none;
+    border-color: #E10600;
+    box-shadow: 0 0 10px rgba(225,6,0,.4);
 }
 
 
