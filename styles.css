@@ -1,51 +1,50 @@
 
+/* --- GLOBAL - COLORES Y TIPOGRAFÍAS ---------------------------------------------------------------- */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
   font-family: sans-serif;
   background-color: rgb(255, 255, 255);
-
 }
 
 
-/* ===================================================*/
-/*PORTADA PAJINA 1*/
-/* ===================================================*/
-/*ENCABEZADO DE LA PAJINA */
+
+
+/* --- COMUNES - ENCABEZADOS Y PIES DE PÁGINA -------------------------------------------------------- */
+
+/* ENCABEZADO 1 */
 .encabezado1 {
   background-color: rgb(0, 0, 0);
   display: flex;
-  justify-content: space-between; /* el logo y los botones se separan de derecha a izquierda*/
-  align-items: center;            /*para que los botones esten derecho en el centrp*/
-  padding: 15px 30px;             /* espacio de fondo degro del encabezado de arriba abajo*/
-  position: fixed;                /* el encabezado se queda quieto */
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 1000;
   font-family: fantasy;
 }
+
 .logo1 {
   height: auto;
   width: 230px;                  
 }
-.dropdown:hover .dropdown-menu {
-  display: block;
-  margin-top: 0;
-  background-color: black;
-  border-color: red;
 
-}
 .btnEncabezado1 {
   display: flex;
   flex-direction: row;
-  gap: 8px;/* para controlar los espacios de cada boton*/
+  gap: 8px;
 }
+
 .btnEn1 {
-    width: max-content;/* para que el boton mida igual que el texto*/
+    width: max-content;
     padding: 8px 18px;
     font-size: 18px;
     color: red;
@@ -54,26 +53,304 @@ body {
     border-radius: 15px;
     text-align: center;
 }
+
 .btnEn1:hover {
     background-color: rgb(255, 0, 0);
     color: black;
     transition: all 0.7s ease;
-    cursor: pointer;/* Hace que aparezca la manito al pasar el mouse */
+    cursor: pointer;
+}
+
+/* ENCABEZADO 2 */
+.encabezado2 {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  font-family: fantasy;
+}
+
+.logo2 {
+  height: auto;
+  width: 230px;                  
+}
+
+.btnEncabezado2 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.btnEn2 {
+    width: max-content;
+    padding: 8px 18px;
+    font-size: 18px;
+    color: red;
+    background-color: black;
+    border: 3.5px solid red;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.btnEn2:hover {
+    background-color: rgb(255, 0, 0);
+    color: black;
+    transition: all 0.7s ease;
+    cursor: pointer;
+}
+
+/* ENCABEZADO 3 */
+.encabezado3 {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  font-family: fantasy;
+}
+
+.logo3 {
+  height: auto;
+  width: 230px;                  
+}
+
+.btnEncabezado3 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.btnEn3 {
+    width: max-content;
+    padding: 8px 18px;
+    font-size: 18px;
+    color: red;
+    background-color: black;
+    border: 3.5px solid red;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.btnEn3:hover {
+    background-color: rgb(255, 0, 0);
+    color: black;
+    transition: all 0.7s ease;
+    cursor: pointer;
+}
+
+/* ENCABEZADO 4 */
+.encabezado4 {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  font-family: fantasy;
+}
+
+.logo4 {
+  height: auto;
+  width: 230px;                  
+}
+
+.btnEncabezado4 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.btnEn4 {
+    width: max-content;
+    padding: 8px 18px;
+    font-size: 18px;
+    color: red;
+    background-color: black;
+    border: 3.5px solid red;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.btnEn4:hover {
+    background-color: rgb(255, 0, 0);
+    color: black;
+    transition: all 0.7s ease;
+    cursor: pointer;
+}
+
+/* ENCABEZADO 6 */
+.encabezado6 {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  font-family: fantasy;
+}
+
+.logo6 {
+  height: auto;
+  width: 230px;                  
+}
+
+.btnEncabezado6 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.btnEn6 {
+    width: max-content;
+    padding: 8px 18px;
+    font-size: 18px;
+    color: red;
+    background-color: black;
+    border: 3.5px solid red;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.btnEn6:hover {
+    background-color: rgb(255, 0, 0);
+    color: black;
+    transition: all 0.7s ease;
+    cursor: pointer;
+}
+
+/* ENCABEZADO 7 */
+.encabezado7 {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  font-family: fantasy;
+}
+
+.logo7 {
+  height: auto;
+  width: 230px;                  
+}
+
+.btnEncabezado7 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.btnEn7 {
+    width: max-content;
+    padding: 8px 18px;
+    font-size: 18px;
+    color: red;
+    background-color: black;
+    border: 3.5px solid red;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.btnEn7:hover {
+    background-color: rgb(255, 0, 0);
+    color: black;
+    transition: all 0.7s ease;
+    cursor: pointer;
+}
+
+/* DROPDOWN COMÚN */
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+  background-color: black;
+  border-color: red;
+}
+
+/* FOOTER */
+footer {
+    background-color: #000;
+}
+
+.piepajina {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 40px;
+    background-color: #000;
+    padding-top: 30px;
+    padding: 30px;
+}
+
+.fotsuptitulo {
+    color: yellow;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+}
+
+.conte {
+    color: #bab7b7;
+    font-size: 18;
+    font-family: 'Times New Roman'
+}
+
+.upn {
+    border-radius: 20px;
+    height: 97px;
+}
+
+.redes-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-top: 23px;
+}
+
+.redes-footer img {
+    width: 40px; 
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
 }
 
 
-/*PORTADA DE LA PAJINA */
 
+
+/* --- INDEX --------------------------------------------------------------------------------------------- */
+
+/* PORTADA DE LA PÁGINA */
 .portada{
     position: relative;
 }
+
 .image{
     width: 100%;
     height: 596px;
     filter: brightness(30%);
-    
-
 }
+
 .portada h1{
     font-family: impact, sans-serif;
     font-size: 200px;
@@ -83,12 +360,13 @@ body {
     transform: translate(-50% -50%);
     color: rgb(255, 12, 12);
     font-style: italic;
-    
 }
+
 .portada h1:hover{
     transform: scale(1.1);
     transition: 1s;
 }
+
 .portada h2{
     font-family: impact;
     font-size: 125px;
@@ -98,18 +376,21 @@ body {
     transform: translate(-50% -50%);
     color: rgb(255, 255, 255);
 }
+
 .portada h2:hover{
     transform: scale(1.1);
     transition: 1s;
 }
+
 .portada span{
     font-family: Impact;
-    
 }
+
 .portada span:hover{
     transform: scale(1.1);
     transition: 1s;
 }
+
 .portada h4{
     font-family: cursive;
     color: rgb(255, 255, 255);
@@ -120,15 +401,13 @@ body {
     transform: translate(-50% -50%);
     color: rgb(255, 255, 255);
 }
+
 .portada h4:hover{
     transform: scale(1.1);
     transition: 1s;
 }
 
-
-
-/*SOBRE NOSOTROS */
-
+/* SOBRE NOSOTROS */
 .sobre-nosotros {
     display: flex;
     justify-content: space-around;
@@ -137,37 +416,37 @@ body {
     background-color: white;
     font-family: sans-serif;
 }
+
 .texto{
     font-size: 10pxs;
-   padding: 30px;
-
+    padding: 30px;
 }
+
 .texto h1 {
     font-size: 44px;
     margin-bottom: 20px;
 }
+
 .boton {
     display: inline-block;
     background-color: black;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
-   
 }
+
 .imgNstrs {
     display: flex;
     gap: 15px;
 }
+
 .imgNstrs img {
     width: 250px;
     height: 250px;
     object-fit: cover;
 }
 
-
-
-
-/*VISÒN Y MISIÒ DE NUESTRA PAJINA WEB*/
+/* VISIÓN Y MISIÓN DE NUESTRA PÁGINA WEB */
 .vi-mi{
     font-size: 19px;
     display: flex;
@@ -175,26 +454,23 @@ body {
     background-color: rgb(206, 229, 243);
     width: 100%;
     font-family: arvo;
-    
-    
-    
 }
+
 .vi{
-   padding: 30px;
-    
+    padding: 30px;
 }
+
 .mi{
-   padding: 30px;
-    
+    padding: 30px;
 }
 
 .linea{
-    width: 1px;          /* Ancho de la línea */
-    height: 250px;       /* Altura de la línea*/
+    width: 1px;
+    height: 250px;
     background-color: black;
     margin: 0 60px;
-
 }
+
 .imgvm{
     width: 20%;
     height: 80px;
@@ -202,37 +478,34 @@ body {
     padding-right: 50px;
 }
 
-
-
-
-/*LOS TRES PRODUCTOS MAS DESTACADOS*/
+/* LOS TRES PRODUCTOS MÁS DESTACADOS */
 .tituloPdcts{
     background-color: #ffffff;
     border-radius: 40px;
     text-shadow: 0px 0px 8px black;
     font-family: poppinss;
-    
 }
+
 .inventario {
     padding: 45px;
     display: flex;
-    gap: 30px; 
+    gap: 30px;
     font-family: caudex;
-
-    
-    
 }
+
 .caja {
     background-color: #ffffff;
     padding: 20px;
     border: 8px solid rgba(206, 229, 243, 0.712);
-    flex: 1; /* Hace que todos ocupen el mismo ancho */
+    flex: 1;
     border-radius: 30px;
     box-shadow: 0 20px 10px rgba(0, 0, 0, 0.7);
 }
+
 .precioPdcts{
     font-weight: 900;
 }
+
 .botonInv{
     background-color: black;
     color: rgb(255, 255, 255);
@@ -240,22 +513,25 @@ body {
     border: black;
     border-radius: 5px;
 }
+
 .botonInv:hover{
     transform: scale(1.1);
     transition: 1s;
 }
+
 .card-img-top{
     height: 250px;
     width: 100%;
-   border-radius: 100px;
+    border-radius: 100px;
     animation: reverse 3s;
 }
+
 .card-img-top:hover{
     transform: scale(1.1);
     transition: 1s;
 }
 
-/*videoo*/
+/* VIDEO Y CLIENTES */
 .contenedor-video{
     font-family: fantasy;
     width: 97%;
@@ -270,7 +546,6 @@ body {
     box-shadow: 0 20px 10px rgba(0,0,0,0.20);
 }
 
-/* Video*/
 .video{
     flex: 0 0 65%;
 }
@@ -308,122 +583,69 @@ body {
     margin-bottom: 12px;
 }
 
-
-
-
-/*PIE DE LA PAJINA */
-
-.piepajina {
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr;
-    gap: 40px;
-    background-color: #000;
-    padding-top: 30px;
-    padding: 30px;
-}
-.fotsuptitulo {
-    color: yellow;
-    font-family: 'Times New Roman';
-    font-size: 20px;
-}
-.conte {
-    color: #bab7b7;
-    font-size: 18;
-    font-family: 'Times New Roman'
-}
-.upn {
-    border-radius: 20px;
-    height: 97px;
-}
-
-
-.redes-footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 12px;
-    margin-top: 23px;
-}
-
-.redes-footer img{
-    width: 40px; 
-    height: 40px;
-    border-radius: 50%;
-    cursor: pointer;
+/* RESPONSIVE INDEX */
+@media (max-width: 768px) {
+    .inventario {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .sobre-nosotros {
+        flex-direction: column;
+    }
+    
+    .imgNstrs {
+        flex-direction: column;
+    }
+    
+    .vi-mi {
+        flex-direction: column;
+    }
+    
+    .linea {
+        width: 250px;
+        height: 1px;
+        margin: 30px 0;
+    }
+    
+    .contenedor-video {
+        flex-direction: column;
+    }
+    
+    .video {
+        flex: 0 0 100%;
+    }
+    
+    .clientes {
+        flex: 0 0 100%;
+    }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* ===================================================*/
-/* PAJINA 2 PRODUCTOS POLOS*/
-/* ===================================================*/
-
-/*ENCABEZADO DE LA PAJINA */
-
-
-.encabezado2 {
-  background-color: rgb(0, 0, 0);
-  display: flex;
-  justify-content: space-between; /* el logo y los botones se separan de derecha a izquierda*/
-  align-items: center;            /*para que los botones esten derecho en el centrp*/
-  padding: 15px 30px;             /* espacio de fondo degro del encabezado de arriba abajo*/
-  position: fixed;                /* el encabezado se queda quieto */
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1000;
-  font-family: fantasy;
-}
-.logo2 {
-  height: auto;
-  width: 230px;                  
-}
-.dropdown:hover .dropdown-menu {
-  display: block;
-  margin-top: 0;
-  background-color: black;
-  border-color: red;
-
-}
-.btnEncabezado2 {
-  display: flex;
-  flex-direction: row;
-  gap: 8px;/* para controlar los espacios de cada boton*/
-}
-.btnEn2 {
-    width: max-content;/* para que el boton mida igual que el texto*/
-    padding: 8px 18px;
-    font-size: 18px;
-    color: red;
-    background-color: black;
-    border: 3.5px solid red;
-    border-radius: 15px;
-    text-align: center;
-}
-.btnEn2:hover {
-    background-color: rgb(255, 0, 0);
-    color: black;
-    transition: all 0.7s ease;
-    cursor: pointer;/* Hace que aparezca la manito al pasar el mouse */
+@media (max-width: 480px) {
+    .portada h1 {
+        font-size: 100px;
+    }
+    
+    .portada h2 {
+        font-size: 60px;
+    }
+    
+    .portada h4 {
+        font-size: 16px;
+    }
 }
 
 
 
-/* POLOS*/
 
+/* --- POLOS --------------------------------------------------------------------------------------------- */
+
+/* ENCABEZADO Y CONTENEDOR PRINCIPAL */
 main{
     background-color: rgba(120, 120, 119, 0.447);
 }
+
+/* CATÁLOGO */
 .catalogo1{
     width: 100%;
     height: 550px;
@@ -433,21 +655,25 @@ main{
     padding: 50px;
     font-family: Georgia, serif;
 }
+
 .texto1{
     width: 40%;
     font-family: Verdana, sans-serif;
 }
+
 .texto1 h1{
     font-size: 65px;
     margin-bottom: 20px;
     font-family: Impact, sans-serif;
 }
+
 .texto1 p{
     font-size: 18px;
     line-height: 30px;
     margin-bottom: 30px;
     font-family: Monospace;
 }
+
 .texto1 button{
     padding: 14px 35px;
     border: none;
@@ -456,6 +682,7 @@ main{
     font-size: 16px;
     font-family: Arial, sans-serif;
 }
+
 .imagen1{
     width: 100%;
     height: 340px;
@@ -463,23 +690,27 @@ main{
     justify-content: center;
     font-family: Tahoma, sans-serif;
 }
+
 .imagen1 img{
     width: 100%;
     max-width: 700px;
     border-radius: 14px;
 }
+
+/* PRODUCTOS */
 .productos1{
     width: 93%;
     padding: 50px 9px;
     font-family: Cambria, serif;
-    
 }
+
 .productos1 h2{
     text-align: center;
     font-size: 40px;
     margin-bottom: 45px;
     font-family: "Arial Black", sans-serif;
 }
+
 .productos1 h2::after{
     content: "";
     display: block;
@@ -488,14 +719,15 @@ main{
     background: black;
     margin: 12px auto;
 }
+
 .contenedor1{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 22px;
     font-family: Garamond, serif;
-    
 }
+
 .producto1{
     width: 225px;
     border: 1px solid #554545;
@@ -505,34 +737,37 @@ main{
     transition: .3s;
     font-family: Georgia, serif;
     background-color: rgba(255, 255, 255, 0.523);
-    
 }
+
 .ejem{
     text-align: justify;
 }
+
 .producto1:hover{
     transform: translateY(-8px);
     box-shadow: 0 30px 40px rgba(0,0,0,0.25);
     border-color: #f76565;
 }
+
 .producto1 img{
     width: 90%;
     height: 250px;
     object-fit: cover;
     border-radius: 5px;
-   
 }
+
 .producto1 h3{
     margin-top: 15px;
     font-size: 23px;
     font-family: "Palatino Linotype", serif;
 }
+
 .producto1 p{
     margin: 7px 0;
     font-size: 13px;
     font-family: Verdana, sans-serif;
-    
 }
+
 .producto1 span{
     display: block;
     margin: 15px 0;
@@ -540,9 +775,11 @@ main{
     font-weight: bold;
     font-family: Arial, sans-serif;
 }
+
 span:hover{
     transform: scale(1.05);
 }
+
 .producto1 button{
     padding: 12px 28px;
     border: none;
@@ -552,19 +789,135 @@ span:hover{
     font-family: Tahoma, sans-serif;
     background-color: rgb(241, 211, 175);
 }
-/*                                                      Sobre nosotros inicio*/
-/* NOSOTROS - TITULO */
+
+/* RESPONSIVE POLOS */
+@media (max-width: 768px) {
+    .catalogo1 {
+        height: auto;
+        flex-direction: column;
+        padding: 30px 20px;
+    }
+    
+    .texto1 {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    .texto1 h1 {
+        font-size: 40px;
+    }
+    
+    .imagen1 {
+        width: 100%;
+        height: 250px;
+    }
+    
+    .productos1 {
+        width: 100%;
+        padding: 40px 10px;
+    }
+    
+    .contenedor1 {
+        justify-content: center;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .catalogo1 {
+        padding: 20px 10px;
+    }
+    
+    .texto1 h1 {
+        font-size: 28px;
+    }
+    
+    .texto1 p {
+        font-size: 14px;
+    }
+    
+    .producto1 {
+        width: 150px;
+        padding: 10px;
+    }
+    
+    .producto1 img {
+        height: 180px;
+    }
+    
+    .producto1 h3 {
+        font-size: 16px;
+    }
+}
+
+
+
+
+/* --- GORRAS --------------------------------------------------------------------------------------------- */
+
+/* CONTENEDOR GENERAL */
+.colors{
+    background-color: #b4000031;
+}
+
+/* RESPONSIVE GORRAS */
+@media (max-width: 768px) {
+    .contenedor1 {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .contenedor1 {
+        gap: 15px;
+    }
+    
+    .producto1 {
+        width: 150px;
+    }
+}
+
+
+
+
+/* --- ACCESORIOS --------------------------------------------------------------------------------------------- */
+
+/* RESPONSIVE ACCESORIOS */
+@media (max-width: 768px) {
+    .contenedor1 {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .contenedor1 {
+        gap: 15px;
+    }
+    
+    .producto1 {
+        width: 150px;
+    }
+}
+
+
+
+
+/* --- NOSOTROS --------------------------------------------------------------------------------------------- */
+
+/* NOSOTROS - TÍTULO */
 .nosotros-header {
     margin-top: 120px;
     text-align: center;
     padding: 40px 20px 0;
 }
+
 .titulo-cvs {
     font-size: 44px;
     color: black;
     font-family: sans-serif;
     margin-bottom: 12px;
 }
+
 .linea-cvs {
     width: 110px;
     height: 3px;
@@ -578,10 +931,12 @@ span:hover{
     background-color: white;
     font-family: sans-serif;
 }
+
 .nosotros-carousel .carousel-inner,
 .nosotros-carousel .carousel-item {
     min-height: 520px;
 }
+
 .slide-content {
     display: flex;
     flex-direction: column;
@@ -592,6 +947,7 @@ span:hover{
     color: black;
     text-align: center;
 }
+
 .slide-nombre {
     font-family: sans-serif;
     font-size: 44px;
@@ -658,7 +1014,6 @@ span:hover{
     color: red;
     font-weight: bold;
 }
-
 
 /* CONTROLES LATERALES DEL CARRUSEL */
 .carousel-top-controls {
@@ -738,324 +1093,69 @@ span:hover{
     }
 }
 
+@media (max-width: 480px) {
+    .nosotros-header {
+        margin-top: 80px;
+        padding: 20px 15px 0;
+    }
 
+    .titulo-cvs {
+        font-size: 28px;
+    }
 
+    .linea-cvs {
+        width: 80px;
+    }
 
+    .slide-content {
+        padding: 40px 20px;
+        min-height: 350px;
+    }
 
+    .slide-nombre {
+        font-size: 22px;
+    }
 
+    .slide-rol {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
 
+    .slide-card h3 {
+        font-size: 15px;
+    }
 
+    .slide-card ul li {
+        font-size: 12px;
+        padding: 6px 0 6px 16px;
+    }
 
-
-
-
-
-
-/* ===================================================*/
-/*Pajina 3 productos goraas */
-/* ===================================================*/
-/*ENCABEZADO DE LA PAJINA */
-.encabezado3 {
-  background-color: rgb(0, 0, 0);
-  display: flex;
-  justify-content: space-between; /* el logo y los botones se separan de derecha a izquierda*/
-  align-items: center;            /*para que los botones esten derecho en el centrp*/
-  padding: 15px 30px;             /* espacio de fondo degro del encabezado de arriba abajo*/
-  position: fixed;                /* el encabezado se queda quieto */
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1000;
-  font-family: fantasy;
-}
-
-.logo3 {
-  height: auto;
-  width: 230px;                  
-}
-.dropdown:hover .dropdown-menu {
-  display: block;
-  margin-top: 0;
-  background-color: black;
-  border-color: red;
-
-}
-
-.btnEncabezado3 {
-  display: flex;
-  flex-direction: row;
-  gap: 8px;/* para controlar los espacios de cada boton*/
-}
-
-.btnEn3 {
-    width: max-content;/* para que el boton mida igual que el texto*/
-    padding: 8px 18px;
-    font-size: 18px;
-    color: red;
-    background-color: black;
-    border: 3.5px solid red;
-    border-radius: 15px;
-    text-align: center;
-}
-
-.btnEn3:hover {
-    background-color: rgb(255, 0, 0);
-    color: black;
-    transition: all 0.7s ease;
-    cursor: pointer;/* Hace que aparezca la manito al pasar el mouse */
-}
-.colors{
-    background-color: #b4000031;
+    .btn-top-nav {
+        padding: 8px 12px;
+        font-size: 16px;
+    }
 }
 
 
 
 
+/* --- CONTACTOS --------------------------------------------------------------------------------------------- */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ===================================================*/
-/*Pajina 4 productos accesorios */
-/* ===================================================*/
-/*ENCABEZADO DE LA PAJINA */
-.encabezado4 {
-  background-color: rgb(0, 0, 0);
-  display: flex;
-  justify-content: space-between; /* el logo y los botones se separan de derecha a izquierda*/
-  align-items: center;            /*para que los botones esten derecho en el centrp*/
-  padding: 15px 30px;             /* espacio de fondo degro del encabezado de arriba abajo*/
-  position: fixed;                /* el encabezado se queda quieto */
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1000;
-  font-family: fantasy;
-}
-
-.logo4 {
-  height: auto;
-  width: 230px;                  
-}
-.dropdown:hover .dropdown-menu {
-  display: block;
-  margin-top: 0;
-  background-color: black;
-  border-color: red;
-
-}
-
-.btnEncabezado4 {
-  display: flex;
-  flex-direction: row;
-  gap: 8px;/* para controlar los espacios de cada boton*/
-}
-
-.btnEn4 {
-    width: max-content;/* para que el boton mida igual que el texto*/
-    padding: 8px 18px;
-    font-size: 18px;
-    color: red;
-    background-color: black;
-    border: 3.5px solid red;
-    border-radius: 15px;
-    text-align: center;
-}
-
-.btnEn4:hover {
-    background-color: rgb(255, 0, 0);
-    color: black;
-    transition: all 0.7s ease;
-    cursor: pointer;/* Hace que aparezca la manito al pasar el mouse */
-}
-
-
-
-
-
-
-
-
-
-
-
-/* ===================================================*/
-/*Pajina 5 nueva colecciòn ELIMINADAA */
-/* ===================================================*/
-
-
-
-
-
-
-
-
-
-
-
-
-/* ===================================================*/
-/*Pajina 6 nosotros */
-/* ===================================================*/
-/*ENCABEZADO DE LA PAJINA */
-.encabezado6 {
-  background-color: rgb(0, 0, 0);
-  display: flex;
-  justify-content: space-between; /* el logo y los botones se separan de derecha a izquierda*/
-  align-items: center;            /*para que los botones esten derecho en el centrp*/
-  padding: 15px 30px;             /* espacio de fondo degro del encabezado de arriba abajo*/
-  position: fixed;                /* el encabezado se queda quieto */
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1000;
-  font-family: fantasy;
-}
-
-.logo6 {
-  height: auto;
-  width: 230px;                  
-}
-.dropdown:hover .dropdown-menu {
-  display: block;
-  margin-top: 0;
-  background-color: black;
-  border-color: red;
-
-}
-
-.btnEncabezado6 {
-  display: flex;
-  flex-direction: row;
-  gap: 8px;/* para controlar los espacios de cada boton*/
-}
-
-.btnEn6 {
-    width: max-content;/* para que el boton mida igual que el texto*/
-    padding: 8px 18px;
-    font-size: 18px;
-    color: red;
-    background-color: black;
-    border: 3.5px solid red;
-    border-radius: 15px;
-    text-align: center;
-}
-
-.btnEn6:hover {
-    background-color: rgb(255, 0, 0);
-    color: black;
-    transition: all 0.7s ease;
-    cursor: pointer;/* Hace que aparezca la manito al pasar el mouse */
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ===================================================*/
-/*Pajina 7 contacto*/
-/* ===================================================*/
-/*ENCABEZADO DE LA PAJINA */
-.encabezado7 {
-  background-color: rgb(0, 0, 0);
-  display: flex;
-  justify-content: space-between; /* el logo y los botones se separan de derecha a izquierda*/
-  align-items: center;            /*para que los botones esten derecho en el centrp*/
-  padding: 15px 30px;             /* espacio de fondo degro del encabezado de arriba abajo*/
-  position: fixed;                /* el encabezado se queda quieto */
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1000;
-  font-family: fantasy;
-}
-
-.logo7 {
-  height: auto;
-  width: 230px;                  
-}
-.dropdown:hover .dropdown-menu {
-  display: block;
-  margin-top: 0;
-  background-color: black;
-  border-color: red;
-
-}
-
-.btnEncabezado7 {
-  display: flex;
-  flex-direction: row;
-  gap: 8px;/* para controlar los espacios de cada boton*/
-}
-
-.btnEn7 {
-    width: max-content;/* para que el boton mida igual que el texto*/
-    padding: 8px 18px;
-    font-size: 18px;
-    color: red;
-    background-color: black;
-    border: 3.5px solid red;
-    border-radius: 15px;
-    text-align: center;
-}
-
-.btnEn7:hover {
-    background-color: rgb(255, 0, 0);
-    color: black;
-    transition: all 0.7s ease;
-    cursor: pointer;/* Hace que aparezca la manito al pasar el mouse */
-}
-
-
-
-/* Formulario */
-
-
+/* PÁGINA GENERAL */
 .pagina-contacto{
     margin: 0;
     padding: 0;
     background: linear-gradient(135deg,#0F172A,#1E293B,#111827);
     min-height: 100vh;
     font-family: Georgia, serif;
-
 }
+
+.formulari {
+    padding-top: 80px;
+}
+
+/* SECCIÓN DE CONTACTO */
 .contacto{
-    
     width: 90%;
     max-width: 1100px;
     margin: 60px auto;
@@ -1065,13 +1165,15 @@ span:hover{
     overflow: hidden;
     box-shadow: 0 5px 15px rgba(0,0,0,.30);
 }
+
 .mensajee{
     background-color: #bfbfbf;
 }
+
+/* FORMULARIO */
 .formulario{
     width: 45%;
     padding: 40px;
-    
 }
 
 .formulario h2{
@@ -1081,6 +1183,7 @@ span:hover{
     color: rgb(255, 255, 255);
     border-top: 4px solid #E10600;
 }
+
 .formulario h2::after{
     content: "";
     display: block;
@@ -1130,6 +1233,19 @@ span:hover{
     transform: translateY(-3px);
 }
 
+.formulario input::placeholder,
+.formulario textarea::placeholder{
+    color: #666869;
+}
+
+.formulario input:focus,
+.formulario textarea:focus{
+    outline: none;
+    border-color: #E10600;
+    box-shadow: 0 0 10px rgba(225,6,0,.4);
+}
+
+/* MAPA */
 .maps{
     padding: 20px;
     border-radius: 10px;
@@ -1138,18 +1254,60 @@ span:hover{
 .mapss{
     border-radius: 10px;
 }
-.formulario input::placeholder,
-.formulario textarea::placeholder{
-    color: #666869;
+
+/* RESPONSIVE CONTACTOS */
+@media (max-width: 768px) {
+    .contacto {
+        flex-direction: column;
+        margin: 40px 20px;
+    }
+
+    .formulario {
+        width: 100%;
+    }
+
+    .maps {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .mapss {
+        width: 100%;
+        height: 400px;
+    }
 }
-.formulario input:focus,
-.formulario textarea:focus{
-    outline: none;
-    border-color: #E10600;
-    box-shadow: 0 0 10px rgba(225,6,0,.4);
+
+@media (max-width: 480px) {
+    .pagina-contacto {
+        padding: 0;
+    }
+
+    .contacto {
+        margin: 30px 10px;
+        border-radius: 10px;
+    }
+
+    .formulario {
+        padding: 20px;
+    }
+
+    .formulario h2 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .formulario input,
+    .formulario textarea {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .formulario button {
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    .mapss {
+        height: 300px;
+    }
 }
-
-
-
-
-
